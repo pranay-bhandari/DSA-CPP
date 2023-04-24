@@ -74,7 +74,7 @@ else if(a<0){
 else{
     cout << "a is zero" << endl;
     }
-*/
+
 
 char ch;
 cout << "enter the value of ch: " << endl;
@@ -92,5 +92,18 @@ else if(ch>=33 && ch<=58){
     cout << "ch is number" << endl;
     }
 
- return 0;
+    */
+
+float c,f;
+
+cout << "enter the value in celcius: " << endl;
+cin >> c;
+
+f = (c*9/5) +32;
+cout << "temperature in fahrenheit is : " << f << endl;
+
+
+
+
+return 0;
 }
