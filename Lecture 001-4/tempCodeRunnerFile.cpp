@@ -1,2 +1,0 @@
-int a = 123;
-// cout<< a << endl;
